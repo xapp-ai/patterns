@@ -29,10 +29,17 @@ export class MyBuilder extends AbstractBuilder<MyObject> {
 }
 ```
 
+- [Another Example](https://github.com/xapp-ai/patterns/blob/main/src/Builder/__test__/AbstractBuilder.test.ts)
+- [Builder Pattern - Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
+
 ## Graph
 
-A graph is a data structure with vertices and edges that make the connections between them.
+A graph is an abstract data type with vertices and edges that make the connections between them.
+
+- [Graph (abstract data type) - Wikipedia](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
 
 ## Tree
 
 A tree is a data structure with a root and nodes that then expand from the root.
+
+- [Tree (data structure) - Wikipedia](<https://en.wikipedia.org/wiki/Tree_(data_structure)>)
