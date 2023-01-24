@@ -1,3 +1,5 @@
+# [2.0.0](https://github.com/xapp-ai/patterns/compare/v1.0.0...v2.0.0) (2023-01-24)
+
 # 1.0.0 (2023-01-24)
 
 
