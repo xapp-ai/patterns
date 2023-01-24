@@ -1,6 +1,6 @@
 # @xapp/patterns
 
-Common TypeScript design patterns.
+Common TypeScript design patterns and data structures.
 
 ## Builder
 

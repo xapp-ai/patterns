@@ -5,7 +5,7 @@
     "access": "public"
   },
   "version": "1.0.0",
-  "description": "Design patterns for TypeScript",
+  "description": "Patterns for TypeScript",
   "types": "lib/index",
   "main": "lib/index",
   "files": [
