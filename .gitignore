@@ -68,6 +68,15 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Not using zero-installs for yarn 2
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # dotenv environment variables file
 .env
 .env.test
