@@ -30,6 +30,7 @@ export class MyBuilder extends AbstractBuilder<MyObject> {
 ```
 
 - [Example - Unit Test](https://github.com/xapp-ai/patterns/blob/main/src/Builder/__test__/AbstractBuilder.test.ts)
+- [Example - Real World](https://github.com/stentorium/stentor/blob/master/packages/stentor-request/src/Builders.ts)
 - [Builder Pattern - Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
 
 ## Graph
