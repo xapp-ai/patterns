@@ -1,4 +1,5 @@
-/*! Copyright (c) 2019, XAPPmedia */
+/*! Copyright (c) 2019, XAPP AI */
+
 /**
  * Translate one object to another.
  *
@@ -8,14 +9,14 @@
  * @template F from
  * @template T to
  */
-export abstract class Translator<F, T, P extends object = Record<string, unknown>> {
+export abstract class Translator<F, T, P = unknown> {
     /**
      * Translate from F to T.
      *
      * @abstract
      * @param {F} from
-     * @returns {T}
-     * @memberof Translator
+     * @param {P} props
+     * @returns {T} to 
      */
-    abstract translate(from: F, props?: P): T;
+    public abstract translate(from: F, props?: P): T;
 }
