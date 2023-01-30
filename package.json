@@ -30,7 +30,7 @@
     "@xapp/config": "0.2.3",
     "chai": "4.3.7",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.32.0",
+    "eslint": "8.33.0",
     "mocha": "10.2.0",
     "sinon": "15.0.1",
     "sinon-chai": "3.7.0",
