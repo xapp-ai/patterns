@@ -12,37 +12,37 @@
     "lib"
   ],
   "engines": {
-    "node": "^12 || ^14 || ^16 || ^18 || ^20"
+    "node": "^14 || ^16 || ^18 || ^20"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
-    "@semantic-release/npm": "9.0.2",
-    "@semantic-release/release-notes-generator": "11.0.2",
-    "@types/chai": "4.3.5",
-    "@types/mocha": "10.0.1",
-    "@types/sinon": "10.0.13",
-    "@types/sinon-chai": "3.2.9",
-    "@typescript-eslint/eslint-plugin": "5.49.0",
-    "@typescript-eslint/parser": "5.49.0",
+    "@semantic-release/npm": "11.0.2",
+    "@semantic-release/release-notes-generator": "12.1.0",
+    "@types/chai": "4.3.11",
+    "@types/mocha": "10.0.6",
+    "@types/sinon": "17.0.3",
+    "@types/sinon-chai": "3.2.12",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
     "@xapp/config": "0.2.3",
-    "chai": "4.3.7",
-    "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.39.0",
+    "chai": "4.3.4",
+    "conventional-changelog-conventionalcommits": "7.0.2",
+    "eslint": "8.56.0",
     "mocha": "10.2.0",
-    "sinon": "15.1.0",
+    "sinon": "17.0.1",
     "sinon-chai": "3.7.0",
-    "ts-node": "10.9.1",
-    "typescript": "5.0.4"
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
   },
   "scripts": {
     "build": "tsc -d true -p .",
     "clean": "rm -rf ./lib/*",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "test": "mocha --recursive -r ts-node/register \"./src/**/*.test.ts\""
+    "test": "mocha --recursive"
   },
   "gitHead": "eec6d2998a1446e859f5ad7f80d20481bd525741",
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@4.1.0"
 }
