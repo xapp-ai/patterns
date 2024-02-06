@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/xapp-ai/patterns/compare/v2.0.1...v2.0.2) (2024-02-06)
+
+
+### Bug Fixes
+
+* dependency updates ([491d74d](https://github.com/xapp-ai/patterns/commit/491d74d48ff039b881bb4b93b3374c68b1bdadb8))
+
 ## [2.0.1](https://github.com/xapp-ai/patterns/compare/v2.0.0...v2.0.1) (2023-01-25)
 
 
