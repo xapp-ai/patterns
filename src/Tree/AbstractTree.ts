@@ -153,7 +153,7 @@ export abstract class AbstractTree<D extends object> implements Tree<D> {
             if (printLine) {
                 printLine(line);
             } else {
-                console.log(line); // eslint-disable-line no-console
+                console.log(line);  
             }
         }
 

@@ -1,5 +1,5 @@
 /*! Copyright (c) 2019, XAPPmedia */
-/* eslint-disable no-console */
+ 
 import { Graph } from "./Graph";
 
 /**
