@@ -139,7 +139,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.39.3":
+"@eslint/js@npm:9.39.3, @eslint/js@npm:^9.0.0":
   version: 9.39.3
   resolution: "@eslint/js@npm:9.39.3"
   checksum: 10/91a1a1822cfeb2eb8a89aae86be5dfabad0b66b0915946516690a8485ddd80b91f43eee346789313fea1acbb7390a4958119ca7dc9a684a5c4014f12fcb3aaf3
@@ -1478,16 +1478,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/config@npm:0.2.3":
-  version: 0.2.3
-  resolution: "@xapp/config@npm:0.2.3"
+"@xapp/config@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@xapp/config@npm:0.3.0"
   dependencies:
-    tslint-config-prettier: "npm:1.6.0"
+    "@eslint/js": "npm:^9.0.0"
+    eslint-config-prettier: "npm:^10.0.0"
+    typescript-eslint: "npm:^8.0.0"
   peerDependencies:
-    prettier: 1
-    tslint: 5
-    typescript: 3
-  checksum: 10/0921dce531f44fce05bdb4c7ada2ae046d276db6d5cc70ac39f32a3f4e6aa45a6f7d1f5f05985fd107e80fed17c0344c3c4fcb868fde2341b0bc56c6cd4aaae1
+    eslint: ">=9.0.0"
+    prettier: ">=3.0.0"
+    typescript: ">=5.0.0"
+  checksum: 10/cc2a232b70c02e98a30ce32d80aa0c146aff84bff6c228a02a2acf87694bcb270c8756867d7a33687f72781ec40cbe72b114a288444f4666849197c14d21948e
   languageName: node
   linkType: hard
 
@@ -1508,7 +1510,7 @@ __metadata:
     "@types/sinon-chai": "npm:3.2.12"
     "@typescript-eslint/eslint-plugin": "npm:8.56.1"
     "@typescript-eslint/parser": "npm:8.56.1"
-    "@xapp/config": "npm:0.2.3"
+    "@xapp/config": "npm:0.3.0"
     chai: "npm:4.5.0"
     conventional-changelog-conventionalcommits: "npm:8.0.0"
     eslint: "npm:9.39.3"
@@ -2523,6 +2525,17 @@ __metadata:
   version: 4.0.0
   resolution: "escape-string-regexp@npm:4.0.0"
   checksum: 10/98b48897d93060f2322108bf29db0feba7dd774be96cd069458d1453347b25ce8682ecc39859d4bca2203cc0ab19c237bcc71755eff49a0f8d90beadeeba5cc5
+  languageName: node
+  linkType: hard
+
+"eslint-config-prettier@npm:^10.0.0":
+  version: 10.1.8
+  resolution: "eslint-config-prettier@npm:10.1.8"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 10/03f8e6ea1a6a9b8f9eeaf7c8c52a96499ec4b275b9ded33331a6cc738ed1d56de734097dbd0091f136f0e84bc197388bd8ec22a52a4658105883f8c8b7d8921a
   languageName: node
   linkType: hard
 
@@ -6408,15 +6421,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslint-config-prettier@npm:1.6.0":
-  version: 1.6.0
-  resolution: "tslint-config-prettier@npm:1.6.0"
-  bin:
-    tslint-config-prettier-check: bin/check.js
-  checksum: 10/1f52df00237f5e349ff5b0c086a2cb3c69b37180b5f3784ff432681ea504fdd62cb4689325cb7486e58510409123fafd40c37087579dc133bf8a64ea1ec84006
-  languageName: node
-  linkType: hard
-
 "tuf-js@npm:^3.0.1":
   version: 3.1.0
   resolution: "tuf-js@npm:3.1.0"
@@ -6496,6 +6500,21 @@ __metadata:
   dependencies:
     tagged-tag: "npm:^1.0.0"
   checksum: 10/0bbdca645f95740587f389a2d712fe8d5e9ab7d13e74aac97cf396112510abcaab6b75fd90d65172bc13b02fdfc827e6a871322cc9c1c1a5a2754d9ab264c6f5
+  languageName: node
+  linkType: hard
+
+"typescript-eslint@npm:^8.0.0":
+  version: 8.56.1
+  resolution: "typescript-eslint@npm:8.56.1"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": "npm:8.56.1"
+    "@typescript-eslint/parser": "npm:8.56.1"
+    "@typescript-eslint/typescript-estree": "npm:8.56.1"
+    "@typescript-eslint/utils": "npm:8.56.1"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
+    typescript: ">=4.8.4 <6.0.0"
+  checksum: 10/e18cd347ddce0f0e5b28121346f27736a418adf68e73d613690ea3a1d0adfe03bc393f77a8872c2cef77ca74bcc0974212d1775c360de33a9987a94cda11a05b
   languageName: node
   linkType: hard
 
