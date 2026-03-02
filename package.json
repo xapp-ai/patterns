@@ -31,7 +31,7 @@
     "@xapp/config": "0.3.0",
     "chai": "4.5.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "eslint": "9.39.3",
+    "eslint": "10.0.2",
     "globals": "17.3.0",
     "mocha": "11.7.5",
     "semantic-release": "^25",
